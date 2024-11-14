@@ -16,6 +16,7 @@
     <p v-if="submitted">Form submitted, {{ name }}!</p>
   </div>
 </template>
+```
 
 ## FormComponent.cy.js
 ```javascript
