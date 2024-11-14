@@ -1,13 +1,24 @@
-## How install cypress?
-1. npm install cypress
-2. npx cypress open
-3. Click E2E Testing then click on continue
-4. Click Swich testing type
-5. Click Component Testing
-6. On Project setup view select your setup then click on continue
-7. Click on Create from component 
+# How to Set Up Cypressds with Vue
 
-##  FormComponent.vue
+## Step 1: Install Cypress
+```bash
+npm install cypress
+```
+
+## Step 2: Open Cypress
+```bash
+npx cypress open
+```
+
+## Step 3: Configure Cypress for Component Testing
+1. In the Cypress window, click on E2E Testing and then click Continue.
+2. Click Switch testing type.
+3. Select Component Testing.
+4. In the Project setup view, choose your project setup (e.g., Vue 3), then click Continue.
+5. Click Create from component to start testing your component.
+
+## Step 4: Write the Component and Test
+###  FormComponent.vue
 ```javascript
 <template>
   <div>
@@ -18,9 +29,10 @@
 </template>
 ```
 
-## FormComponent.cy.js
-```javascript
+### FormComponent.cy.js
+Create a test file FormComponent.cy.js in the same directory as FormComponent.vue (or in your cypress/component folder if set up).
 
+```javascript
 import FormComponent from "./FormComponent.vue";
 
 describe("<FormComponent />", () => {
@@ -40,7 +52,21 @@ describe("<FormComponent />", () => {
 });
 ```
 
-## How run this?
-- npm install
-- npm run dev
-- npx cypress open
+## Step 5: Run the Test
+1. Make sure your project dependencies are installed:
+
+```bash
+npm install
+```
+2. Start the development server:
+
+
+```bash
+npm run dev
+```
+3. In another terminal, open Cypress and start the component test:
+
+```bash
+npx cypress open
+```
+Then, select Component Testing and run the FormComponent.cy.js test. Cypress will mount the FormComponent.vue component and execute the test.
