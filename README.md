@@ -43,3 +43,4 @@ describe("<FormComponent />", () => {
 ## How run this?
 - npm install
 - npm run dev
+- npx cypress open
