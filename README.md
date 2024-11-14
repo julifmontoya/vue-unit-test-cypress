@@ -53,18 +53,18 @@ describe("<FormComponent />", () => {
 ```
 
 ## Step 5: Run the Test
-1. Make sure your project dependencies are installed:
+**1. Make sure your project dependencies are installed:**
 
 ```bash
 npm install
 ```
-2. Start the development server:
+**2. Start the development server:**
 
 
 ```bash
 npm run dev
 ```
-3. In another terminal, open Cypress and start the component test:
+**3. In another terminal, open Cypress and start the component test:**
 
 ```bash
 npx cypress open
