@@ -1,4 +1,4 @@
-## How install cypress
+## How install cypress?
 1. npm install cypress
 2. npx cypress open
 3. Click E2E Testing then click on continue
