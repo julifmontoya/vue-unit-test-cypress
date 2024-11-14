@@ -1,4 +1,4 @@
-# How to Set Up Cypressds with Vue
+# How to Set Up Cypress with Vue3
 
 ## Step 1: Install Cypress
 ```bash
