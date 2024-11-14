@@ -41,5 +41,5 @@ describe("<FormComponent />", () => {
 ```
 
 ## How run this?
-npm install
-npm run dev
+- npm install
+- npm run dev
